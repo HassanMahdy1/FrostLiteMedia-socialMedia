@@ -1,0 +1,154 @@
+
+
+
+
+@media screen and (max-width: 770px){
+    #links{
+        display: none!important;
+    }
+
+    #maincontent{
+        padding: 0 !important;
+    }
+    #posts{
+        width: 90%;
+    }
+    #addpostbtn {
+    bottom: 60px;
+    right: 40px;
+    }
+    #openptn{
+        display: block !important;
+    }
+    .logo{
+    font-size: 18px!important;
+
+    }
+    #logoutbtn b{
+        display: none !important;
+    }
+    #resp{
+            align-items: center;
+
+    }
+    .custom-btn{
+            padding: 3px 5px;
+                font-size: 14px;
+
+    }
+    #detailscont{
+        padding: 0!important;
+        display: flex;
+            justify-content: center;
+
+    }
+    #img-info{
+    width: 100px!important;
+    height: 100px!important;  
+  }
+  #main-info{
+    justify-content: space-between!important;
+  }
+  #lastpost{
+    padding: 0 !important;
+  }
+  
+}
+
+
+@media screen and (max-width: 500px){
+#notifcation{
+    width: 280px !important;
+  }
+
+}
+@media screen and (max-width: 400px){
+#notifcation{
+    width: 230px !important;
+  }
+  .px-3 {
+    padding-right: 0!important;
+    padding-left: 0!important;
+
+  }
+  #wordnot{
+    padding: 0!important;
+  }
+}
+
+
+
+@media screen and (max-width: 335px){
+        .logo{
+    font-size: 15px!important;
+
+    }
+    #resp{
+        gap: 10px!important;
+    }
+    #last{
+flex-wrap: wrap;    }
+        #img-info{
+    width: 80px!important;
+    height: 80px!important;  
+  }
+}
+
+
+
+@media screen and (max-width: 300px){
+    #imgprofile{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+    background-image: linear-gradient(to bottom , #ffffff , #00bcd4f2);
+      overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px!important;
+  font-weight: 600!important;
+  color: #393939;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
